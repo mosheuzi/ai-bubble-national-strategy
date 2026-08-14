@@ -17,7 +17,7 @@ The research is organised around four questions:
 
 ## What this repository adds
 
-The published article tells the argument as a readable narrative. This repository exposes the research structure behind it:
+The published article presents the analysis in a readable form. This repository exposes the research structure behind it:
 
 - the role assigned to each source
 - the distinction between theoretical models, empirical studies and institutional reports
@@ -49,4 +49,3 @@ The literature supports treating a sharp correction as a plausible scenario, not
 ## Author
 
 [Moshe Uziel](https://mosheuziel.com), AI technology leader working at the intersection of public policy, national infrastructure and enterprise adoption.
-
