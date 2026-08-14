@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this research companion, please cite it as below."
+title: "An AI Bubble? National Strategy After the Boom"
+type: dataset
+authors:
+  - family-names: "Uziel"
+    given-names: "Moshe"
+url: "https://github.com/mosheuzi/ai-bubble-national-strategy"
+repository-code: "https://github.com/mosheuzi/ai-bubble-national-strategy"
+date-released: 2026-08-14
+version: 1.0.0
+
