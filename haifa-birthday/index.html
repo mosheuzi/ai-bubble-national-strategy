@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#1f5d57" />
+  <meta name="description" content="יום ההולדת של לירז בחיפה: גנים בהאיים, המושבה הגרמנית ושוק תלפיות" />
+  <title>יום ההולדת של לירז בחיפה</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <style>
+    :root{
+      --bg:#f7f2e8;--paper:#fffdf8;--ink:#173330;--muted:#60726f;--green:#1f5d57;--green2:#2c776f;
+      --gold:#d5a94d;--terracotta:#b96549;--line:#ded8cb;--shadow:0 12px 34px rgba(28,54,50,.10);
+      --radius:24px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:linear-gradient(180deg,#edf4ef 0,#f7f2e8 240px,#f7f2e8 100%);font-family:Arial,"Noto Sans Hebrew",sans-serif;color:var(--ink);line-height:1.55}
+    button,a{font:inherit}
+    a{color:inherit;text-decoration:none}
+    .app{max-width:760px;margin:0 auto;padding:0 14px 110px}
+    .hero{margin:0 -14px 18px;position:relative;min-height:390px;overflow:hidden;background:#163b37;color:white}
+    .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.48}
+    .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,34,31,.08),rgba(14,34,31,.85) 82%)}
+    .hero-inner{position:relative;z-index:2;padding:42px 22px 28px;display:flex;flex-direction:column;justify-content:flex-end;min-height:390px}
+    .eyebrow{display:inline-flex;align-self:flex-start;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:7px 11px;font-size:13px;font-weight:700;backdrop-filter:blur(10px)}
+    h1{font-size:36px;line-height:1.08;margin:15px 0 9px;letter-spacing:-.6px}
+    .hero p{margin:0 0 16px;color:#f7fbf9;font-size:17px;max-width:560px}
+    .meta{display:flex;gap:8px;flex-wrap:wrap}
+    .pill{border-radius:999px;padding:7px 10px;background:rgba(255,255,255,.14);font-size:13px;border:1px solid rgba(255,255,255,.18)}
+    .sticky{position:sticky;top:0;z-index:20;margin:0 -2px 14px;padding-top:8px;background:linear-gradient(var(--bg) 72%,rgba(247,242,232,0))}
+    .progress-card{background:rgba(255,253,248,.94);border:1px solid rgba(222,216,203,.9);box-shadow:0 7px 24px rgba(28,54,50,.09);border-radius:18px;padding:11px 12px;backdrop-filter:blur(12px)}
+    .progress-row{display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:700;margin-bottom:7px}
+    .bar{height:8px;background:#e7e3d9;border-radius:99px;overflow:hidden}.bar>div{height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--green2));transition:width .25s}
+    .overview{background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:var(--radius);padding:18px;margin-bottom:18px}
+    .overview h2,.section-title{margin:0 0 8px;font-size:23px}
+    .overview p{margin:0;color:var(--muted)}
+    .overview-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+    .stat{background:#f3eee4;border-radius:16px;padding:12px;text-align:center}.stat b{display:block;font-size:19px}.stat span{font-size:12px;color:var(--muted)}
+    .section{margin-top:28px}.section-head{display:flex;justify-content:space-between;gap:14px;align-items:end;margin:0 2px 12px}.section-head p{margin:0;color:var(--muted);font-size:13px}
+    .stop{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-bottom:14px;box-shadow:0 7px 25px rgba(28,54,50,.065)}
+    .stop.done{border-color:#8db8ab;background:#f9fffc}
+    .stop-img{height:190px;background:#d9e1dc;position:relative;overflow:hidden}
+    .stop-img img{width:100%;height:100%;object-fit:cover;display:block}
+    .stop-img .time{position:absolute;right:12px;top:12px;background:rgba(20,41,38,.86);color:white;border-radius:999px;padding:7px 10px;font-size:13px;font-weight:700}
+    .stop-body{padding:17px}.stop-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.num{flex:0 0 36px;height:36px;background:#e5efe9;border-radius:12px;display:grid;place-items:center;font-weight:800;color:var(--green)}
+    .stop h3{margin:0 0 3px;font-size:21px;line-height:1.25}.sub{color:var(--muted);font-size:13px;margin:0}.story{margin:14px 0 0}.story strong{color:var(--green)}
+    .history-hook{margin:14px 0 0;background:#eef3ef;border-right:4px solid var(--green);border-radius:15px;padding:13px 14px}.history-hook b{color:var(--green);display:block;margin-bottom:4px}.history-hook p{margin:0}
+    .history-photo{margin:13px 0 0;border-radius:17px;overflow:hidden;background:#eee8dc;border:1px solid #ded6c8}.history-photo img{width:100%;max-height:285px;object-fit:cover;display:block;filter:saturate(.88)}.history-photo figcaption{padding:8px 10px;font-size:11px;color:#66736f;background:#f7f2e8}
+    .timeline{margin:12px 0 0;display:grid;grid-template-columns:58px 1fr;gap:7px 10px;font-size:13px}.timeline b{color:var(--terracotta)}.timeline span{color:#465a56}.source-note{margin-top:8px;font-size:11px;color:#73817e}.deep-story p{margin:8px 0}.deep-story strong{color:var(--ink)}
+    .task{margin:14px 0;background:#f5ebd4;border:1px solid #ead8a9;border-radius:17px;padding:13px}.task b{display:block;margin-bottom:3px;color:#6f5315}.task p{margin:0}
+    .taste{margin:14px 0;background:#f6e9e3;border:1px solid #e8c8bb;border-radius:17px;padding:13px}.taste b{display:block;color:#87452f}.taste p{margin:2px 0 0}
+    .actions{display:grid;grid-template-columns:1.35fr 1fr;gap:8px;margin-top:15px}.btn{border:0;border-radius:14px;padding:12px 13px;font-weight:800;cursor:pointer;text-align:center;display:flex;align-items:center;justify-content:center;gap:7px;min-height:46px}.btn.primary{background:var(--green);color:#fff}.btn.secondary{background:#edf0eb;color:var(--ink);border:1px solid #dbe1da}.btn.done-btn{grid-column:1/-1;background:#fff;border:1px solid #cfd8d1;color:var(--green)}.done .done-btn{background:#dcece6;border-color:#b4d4c7}
+    .car{border:2px dashed #b9b19f;background:#fffaf0}.car .stop-body{padding-bottom:18px}.car-banner{display:flex;gap:10px;align-items:center;background:#efe7d8;padding:10px 12px;border-radius:14px;margin-top:12px;font-size:13px}
+    .parking{background:#eaf1f5;border:1px solid #cadbe5;border-radius:17px;padding:13px;margin-top:13px}.parking b{color:#2d5a70;display:block}.parking p{margin:3px 0 0}
+    .choice{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.choice button{background:#fff;border:1px solid var(--line);border-radius:14px;padding:11px;font-weight:700;color:var(--ink)}.choice button.selected{border-color:var(--green);background:#eaf4ef;color:var(--green)}
+    details{border-top:1px solid #ece7dc;margin-top:15px;padding-top:12px}summary{cursor:pointer;font-weight:800;color:var(--green)}details p,details li{color:#52635f;font-size:14px}
+    .sources{background:#f0eee8;border-radius:20px;padding:16px;margin-top:28px}.sources h2{margin-top:0;font-size:20px}.sources a{text-decoration:underline;text-underline-offset:2px}.sources li{margin:7px 0;color:#4e5c59;font-size:13px}
+    .finale{background:linear-gradient(145deg,#1f5d57,#244a46);color:white;border-radius:28px;padding:21px;margin-top:26px;box-shadow:var(--shadow)}.finale h2{margin:0 0 7px}.finale p{color:#e7f1ed}.family-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.family{background:rgba(255,255,255,.1);padding:10px;border-radius:14px}.family label{display:block;font-size:12px;margin-bottom:5px}.family select{width:100%;border-radius:10px;border:0;padding:9px;background:white;color:#173330}
+    .bottom-nav{position:fixed;bottom:0;left:0;right:0;z-index:50;background:rgba(255,253,248,.96);border-top:1px solid var(--line);padding:9px max(12px,env(safe-area-inset-right)) calc(9px + env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));backdrop-filter:blur(14px)}
+    .bottom-inner{max-width:760px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.bottom-nav a,.bottom-nav button{border:0;background:#eef1ec;border-radius:13px;padding:10px 5px;font-size:12px;font-weight:800;color:var(--ink);text-align:center}.bottom-nav .main{background:var(--green);color:white}
+    .notice{background:#fff8df;border:1px solid #e8d48a;border-radius:16px;padding:12px 13px;margin:10px 0 18px;font-size:13px}.notice b{color:#6a5518}
+    .small{font-size:12px;color:var(--muted)}
+    .modal{position:fixed;inset:0;background:rgba(10,25,23,.62);z-index:100;display:none;align-items:flex-end;justify-content:center}.modal.open{display:flex}.sheet{width:min(760px,100%);max-height:86vh;overflow:auto;background:var(--paper);border-radius:28px 28px 0 0;padding:20px 17px 34px}.sheet h2{margin-top:0}.sheet .close{float:left;border:0;background:#e9ece7;width:38px;height:38px;border-radius:12px;font-size:20px}.route-item{padding:12px 0;border-bottom:1px solid #e8e2d6;display:flex;gap:10px}.route-item b{min-width:48px;color:var(--green)}
+    @media(max-width:430px){h1{font-size:31px}.overview-grid{grid-template-columns:1fr 1fr}.overview-grid .stat:last-child{grid-column:1/-1}.actions{grid-template-columns:1fr}.btn.done-btn{grid-column:auto}.stop-img{height:165px}}
+  </style>
+</head>
+<body>
+<div class="app" id="top">
+  <header class="hero">
+    <img alt="המושבה הגרמנית והגנים הבהאיים בחיפה" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/%D7%A9%D7%93%D7%A8%D7%95%D7%AA%20%D7%91%D7%9F%20%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%9F%20-%20%D7%94%D7%9E%D7%95%D7%A9%D7%91%D7%94%20%D7%94%D7%92%D7%A8%D7%9E%D7%A0%D7%99%D7%AA%20%D7%91%D7%97%D7%99%D7%A4%D7%94.jpg?width=1400" />
+    <div class="hero-inner">
+      <span class="eyebrow">יום רביעי, 7.10.2026</span>
+      <h1>יום ההולדת של לירז בחיפה</h1>
+      <p>בוקר של גנים וסיפורים, ואז מסע טעימות משפחתי בשוק תלפיות.</p>
+      <div class="meta"><span class="pill">משפחה של 5</span><span class="pill">09:45 עד 14:00</span><span class="pill">2 מקטעי חניה</span><span class="pill">סיפורים היסטוריים מורחבים</span></div>
+    </div>
+  </header>
+
+  <div class="sticky">
+    <div class="progress-card">
+      <div class="progress-row"><span>התקדמות ביום</span><span id="progressText">0 מתוך 12</span></div>
+      <div class="bar"><div id="progressBar"></div></div>
+    </div>
+  </div>
+
+  <div class="notice"><b>לפני שיוצאים:</b> שעות הפעילות נבדקו ב-1.10.2026. בגלל התאריך, מומלץ לבצע בדיקת פתיחה קצרה בבוקר 7.10. הגנים מפרסמים כרגע פעילות רגילה ביום זה.</div>
+
+  <section class="overview">
+    <h2>התוכנית בקצרה</h2>
+    <p>לא מנסים להספיק את חיפה. עושים שני פרקים טובים: המושבה הגרמנית והגנים, ואז שוק תלפיות. הסיפור ההיסטורי נשען בעיקר על מוזיאון העיר, המחקר של פרופ' יוסי בן ארצי, עיריית חיפה, המועצה לשימור והמקורות הרשמיים של המרכז הבהאי. בכל תחנה יש סיפור קצר לילדים ושכבה עמוקה יותר למבוגרים.</p>
+    <div class="overview-grid"><div class="stat"><b>4:15</b><span>שעות בחיפה</span></div><div class="stat"><b>6</b><span>טעימות אפשריות</span></div><div class="stat"><b>13</b><span>תחנות ומשימות</span></div></div>
+  </section>
+
+  <section class="section" id="morning">
+    <div class="section-head"><div><h2 class="section-title">פרק א: העיר שעל ההר</h2><p>09:45 עד 11:30, הכל ברגל</p></div></div>
+
+    <article class="stop" data-stop="parking1">
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>חניה ראשונה: המושבה הגרמנית</h3><p class="sub">חניון מלון בוטניקה, אלנבי 67, חיפה</p></div><div class="num">1</div></div>
+        <div class="parking"><b>למה דווקא כאן?</b><p>חניון תת קרקעי, פתוח 24/7, ומשאיר אותנו באזור המושבה בלי לחפש כחול לבן. אם מצאתם חניה נוחה יותר ברחוב, מצוין.</p></div>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=%D7%97%D7%A0%D7%99%D7%95%D7%9F%20%D7%9E%D7%9C%D7%95%D7%9F%20%D7%91%D7%95%D7%98%D7%A0%D7%99%D7%A7%D7%94%2C%20%D7%90%D7%9C%D7%A0%D7%91%D7%99%2067%2C%20%D7%97%D7%99%D7%A4%D7%94">נווט לחניה</a><button class="btn secondary" onclick="openRoute()">ראה מסלול היום</button><button class="btn done-btn" onclick="toggleDone(this)">סיימנו את התחנה</button></div>
+      </div>
+    </article>
+
+    <article class="stop" data-stop="coffee">
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>קפה פתיחה, לא ארוחת בוקר</h3><p class="sub">09:45 עד 10:10, Fattoush, שד' בן גוריון 38</p></div><div class="num">2</div></div>
+        <p class="story"><strong>הכלל:</strong> קפה, שתייה לילדים, ואם צריך מאפה אחד לחלוקה. אנחנו שומרים מקום לשוק.</p>
+        <div class="task"><b>משימת הילדים</b><p>בדרך לקפה, מי הראשון שמצליח לראות את הכיפה הזהובה בין הבתים?</p></div>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=Fattoush%2C%20Sderot%20Ben%20Gurion%2038%2C%20Haifa">נווט ברגל</a><a class="btn secondary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Fattoush%20Haifa">פתח במפות</a><button class="btn done-btn" onclick="toggleDone(this)">סיימנו את התחנה</button></div>
+      </div>
+    </article>
+
+    <article class="stop" data-stop="bahai">
+      <div class="stop-img"><img alt="הגנים הבהאיים" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Bah%C3%A1%27%C3%AD%20Terraces%20IMG%206639.jpg?width=1200"><span class="time">10:15</span></div>
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>הגנים הבהאיים, המבט מלמטה</h3><p class="sub">רחבת המושבה הגרמנית, הגפן 21</p></div><div class="num">3</div></div>
+        <div class="history-hook"><b>הסיפור: הכיפה שאתם רואים היא בעצם השכבה האחרונה בסיפור של יותר ממאה שנה</b><p>ב-1891 עמד בהאא-אללה על המדרון הכמעט חשוף של הכרמל והצביע על המקום שבו ביקש שיוקם מקדש לבאב. ב-1909 הושלמה הקבורה במבנה אבן צנוע, בלי הכיפה הזהובה שאתם רואים היום. הכיפה והמבנה הלבן שמעליו הושלמו רק ב-1953, והטרסות שאנחנו מכירים נפתחו ב-2001.</p></div>
+        <figure class="history-photo"><img alt="מקדש הבאב בשנת 1909, לפני בניית הכיפה" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Mauzoleo_bab_1909.jpg?width=1000"><figcaption>מקדש הבאב ב-1909, לפני הכיפה והטרסות המוכרות כיום. מקור: Wikimedia Commons, נחלת הכלל בישראל.</figcaption></figure>
+        <div class="timeline"><b>1891</b><span>בחירת המקום על הר הכרמל</span><b>1909</b><span>המבנה הראשון משמש מקום מנוחה לבאב</span><b>1953</b><span>השלמת המבנה העליון והכיפה הזהובה</span><b>2001</b><span>פתיחת 19 הטרסות</span></div>
+        <div class="task"><b>משימת הילדים: מצאו את הבניין שמסתתר בתוך הבניין</b><p>הסתכלו על התמונה מ-1909 ואז על המקדש של היום. נסו לזהות איפה המבנה המרובע הישן נמצא בתוך המבנה הגדול של היום. אחר כך מצאו שלושה דברים סימטריים בגן.</p></div>
+        <details class="deep-story"><summary>הסיפור המלא למי שרוצה עוד דקה</summary><p>הבאב היה מבשר הדת הבהאית. לאחר מותו באיראן ב-1850, שרידיו נשמרו והועברו במשך עשרות שנים עד שהובאו לחיפה. עבד אל-בהאא, בנו של בהאא-אללה, רכש את הקרקע ובנה את המאוזוליאום הראשון. האתרים הקדושים הבהאיים בחיפה ובעכו הוכרזו ב-2008 כאתר מורשת עולמית של אונסק"ו, בשל משמעותם למסורת העלייה לרגל הבהאית.</p></details>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=21%20Hagefen%20St%2C%20Haifa">נווט ברגל</a><a class="btn secondary" target="_blank" rel="noopener" href="https://ganbahai.org.il/he/visit-us-haifa/">מידע רשמי</a><button class="btn done-btn" onclick="toggleDone(this)">סיימנו את התחנה</button></div>
+      </div>
+    </article>
+
+    <article class="stop" data-stop="museum">
+      <div class="stop-img"><img alt="מוזיאון העיר חיפה, בית העם הטמפלרי" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Haifa%20City%20Museum.JPG?width=1200"><span class="time">10:45</span></div>
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>בית העם: בניין אחד, כמעט עיר שלמה</h3><p class="sub">שד' בן גוריון 11, נשארים בחוץ</p></div><div class="num">4</div></div>
+        <div class="history-hook"><b>הסיפור: בשנת 1868 חיפה הייתה עיר עות'מאנית קטנה, ואז הגיעו גרמנים שרצו לבנות חברה חדשה</b><p>כריסטוף הופמן וגיאורג דוד הרדג הגיעו מווירטמברג עם קבוצה דתית נוצרית בשם הטמפלרים. סביב 1870 חיו בחיפה רק כ-4,000 תושבים. מחוץ לעיר הישנה הם תכננו מושבה עם רחוב ראשי רחב שפונה מהים אל הכרמל, הוא הציר שעליו אתם עומדים עכשיו. כבר ב-1869 הם הקימו את בית העם כמרכז דתי, חברתי ולימודי.</p></div>
+        <figure class="history-photo"><img alt="המושבה הגרמנית בחיפה בראשית המאה העשרים" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/HaifaColony.jpg?width=1100"><figcaption>המושבה הגרמנית בין 1898 ל-1914. הרחוב הישר בתמונה הוא האב הקדמון של שדרות בן גוריון. מקור: Library of Congress דרך Wikimedia Commons.</figcaption></figure>
+        <div class="task"><b>משימת הילדים: תעמדו באמצע הסיפור</b><p>הסתכלו לכיוון הים ואז לכיוון ההר. דמיינו שאין כבישים, מכוניות או בניינים גבוהים. למה לדעתכם בחרו המתיישבים לבנות את הרחוב הראשי דווקא בקו הזה?</p></div>
+        <details class="deep-story"><summary>החיבור המפתיע לבהאים</summary><p>מוזיאון העיר מצביע על צירוף מקרים היסטורי יוצא דופן: ב-1868, השנה שבה הגיעו מייסדי הטמפלרים לחיפה, הגיע לעיר גם בהאא-אללה, מייסד הדת הבהאית. הקהילות נשארו נפרדות, אבל מקורות היסטוריים מתעדים ביניהן יחסי שכנות ושיתופי פעולה בענייני בנייה וקהילה. כלומר, שני הפרקים הראשונים של היום שלנו התחילו למעשה באותה שנה.</p></details>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=Haifa%20City%20Museum%2C%2011%20Ben%20Gurion%20Ave%2C%20Haifa">נווט</a><a class="btn secondary" target="_blank" rel="noopener" href="https://www.hcm.org.il/">אתר המוזיאון</a><button class="btn done-btn" onclick="toggleDone(this)">סיימנו את התחנה</button></div>
+      </div>
+    </article>
+
+    <article class="stop" data-stop="schumacher">
+      <div class="stop-img"><img alt="בית שומאכר במושבה הגרמנית" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/%D7%91%D7%99%D7%AA%20%D7%A9%D7%95%D7%9E%D7%9B%D7%A8%20%D7%91%D7%9E%D7%95%D7%A9%D7%91%D7%94%20%D7%94%D7%92%D7%A8%D7%9E%D7%A0%D7%99%D7%AA%20%D7%91%D7%97%D7%99%D7%A4%D7%94%20%D7%9C%D7%90%D7%97%D7%A8%20%D7%A9%D7%99%D7%A4%D7%95%D7%A5%2010.jpg?width=1200"><span class="time">10:55</span></div>
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>שומאכר: Google Maps של המאה ה-19</h3><p class="sub">שד' בן גוריון 12</p></div><div class="num">5</div></div>
+        <div class="history-hook"><b>הסיפור: בבית הזה חי האיש שהיה גם מהנדס עיר, גם קונסול, גם יוצר מפות וגם ארכיאולוג</b><p>גוטליב שומאכר לא רק מדד שטחים. הוא היה מהנדס מחוז עכו, מיפה אזורים בארץ, בעבר הירדן וברמת הגולן, חפר את מגידו ותכנן מבנים ותשתיות. אביו יעקב וגוטליב עצמו גם שימשו ראשי המושבה וסגני הקונסול של ארצות הברית בחיפה. הבית הזה היה נקודת חיבור בין חיפה הקטנה לרשת בינלאומית.</p></div>
+        <div class="task"><b>משימת הילדים: GPS בלי לוויינים</b><p>בלי לפתוח את הטלפון, בחרו נקודה בהמשך הרחוב והעריכו מרחק במטרים. אחר כך ספרו צעדים. אם הייתם שומאכר, עם אילו שלושה כלים הייתם מנסים להכין מפה מדויקת?</p></div>
+        <details class="deep-story"><summary>למה היסטוריונים אוהבים את שומאכר?</summary><p>המועצה לשימור מגדירה את ספריו, מפותיו ומאמריו כנכסי יסוד של חקר הארץ. מוזיאון העיר אפילו בחר בדמותו להוביל סרט אנימציה שמספר את סיפור הטמפלרים, בליווי ההיסטוריון פרופ' יוסי בן ארצי.</p></details>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=Sderot%20Ben%20Gurion%2012%2C%20Haifa">נווט</a><a class="btn secondary" target="_blank" rel="noopener" href="https://shimur.org/signs/%D7%91%D7%99%D7%AA-%D7%A9%D7%95%D7%9E%D7%90%D7%9B%D7%A8/">הסיפור המלא</a><button class="btn done-btn" onclick="toggleDone(this)">סיימנו את התחנה</button></div>
+      </div>
+    </article>
+
+    <article class="stop" data-stop="oliphant">
+      <div class="stop-img"><img alt="בית אוליפנט במושבה הגרמנית" loading="lazy" src="https://static.wixstatic.com/media/af1366_afee0a0903b44f39a2d71b9b8d2c945d~mv2.jpg/v1/fill/w_980,h_1523,al_c,q_85/NMM-3530%20%282%29.jpg"><span class="time">11:10</span></div>
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>בית אוליפנט: הבית שבו ההיסטוריה הישראלית נכנסה במקרה</h3><p class="sub">שד' בן גוריון 16</p></div><div class="num">6</div></div>
+        <div class="history-hook"><b>הסיפור: הדייר המפורסם בבית בכלל לא היה טמפלרי</b><p>ב-1882 עברו לכאן הסופר והדיפלומט הבריטי לורנס אוליפנט ואשתו אליס. אוליפנט עסק בתוכניות להתיישבות יהודית תחת השלטון העות'מאני. איתם הגיע גם מזכיר צעיר, משורר בשם נפתלי הרץ אימבר, שחי איתם בחיפה בחלק מהתקופה. השיר שלו, "תקוותנו", הפך לימים לבסיס של "התקווה".</p></div>
+        <div class="task"><b>חידת הילדים</b><p>איזה סמל לאומי ישראלי קשור לאדם שישן פעם בבית הזה? פתחו את התשובה רק אחרי שכל אחד ניחש.</p></div>
+        <details><summary>התשובה</summary><p><strong>ההמנון.</strong> נפתלי הרץ אימבר, שמילות שירו הפכו בהמשך ל"התקווה", הגיע לארץ עם משפחת אוליפנט ושימש תקופה כמזכירו. חשוב: אין בסיס לומר שהוא כתב את השיר דווקא בבית הזה, רק שהוא התגורר כאן בחלק משהותו בארץ.</p></details>
+        <details class="deep-story"><summary>בונוס: היום שבו קיסר גרמניה הגיע לחיפה</summary><p>ב-25 באוקטובר 1898 הגיע הקיסר וילהלם השני לחיפה באונייה. הביקור היה אירוע עצום עבור המושבה. למחרת נערכה קבלת פנים בקונסוליה הגרמנית, באזור שדרות בן גוריון של היום. מוזיאון העיר בנה את משחק הבריחה המשפחתי שלו סביב הביקור הזה.</p><figure class="history-photo"><img alt="קבלת הפנים לקיסר וילהלם השני בחיפה בשנת 1898" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/William_II%2C_German_Emperor_%28only_Pickelhelm_visible%29%2C_1898_state_visit_to_the_Ottoman_Empire%2C_reception_with_Empress_at_Haifa_German_Consulate%2C_1898-10-26._LOC_matpc.04614.jpg?width=1000"><figcaption>קבלת הפנים בקונסוליה הגרמנית בחיפה, 26.10.1898. מקור: Library of Congress דרך Wikimedia Commons.</figcaption></figure></details>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=Sderot%20Ben%20Gurion%2016%2C%20Haifa">נווט</a><a class="btn secondary" target="_blank" rel="noopener" href="https://digital.hcm.org.il/11">ראו את הבית בציור מ-1884</a><button class="btn done-btn" onclick="toggleDone(this)">סיימנו את התחנה</button></div>
+      </div>
+    </article>
+
+    <article class="stop car" id="drive" data-stop="drive">
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>חוזרים לרכב ונוסעים לתלפיות</h3><p class="sub">כ-10 עד 15 דקות, תלוי בתנועה</p></div><div class="num">7</div></div>
+        <div class="car-banner"><b>מחליפים פרק:</b><span>מהיסטוריה לאוכל. מכאן לא יושבים לארוחה אחת, אלא טועמים וממשיכים.</span></div>
+        <div class="parking"><b>חניה שנייה</b><p>חניון שוק תלפיות, סירקין 31. העירייה מונה אותו כחניון ציבורי באזור השוק. בדקו שילוט ותעריף במקום.</p></div>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&travelmode=driving&destination=%D7%97%D7%A0%D7%99%D7%95%D7%9F%20%D7%A9%D7%95%D7%A7%20%D7%AA%D7%9C%D7%A4%D7%99%D7%95%D7%AA%2C%20%D7%A1%D7%99%D7%A8%D7%A7%D7%99%D7%9F%2031%2C%20%D7%97%D7%99%D7%A4%D7%94">נווט לחניון תלפיות</a><button class="btn secondary" onclick="scrollToId('market')">הגענו לשוק</button><button class="btn done-btn" onclick="toggleDone(this)">סיימנו את המעבר</button></div>
+      </div>
+    </article>
+  </section>
+
+  <section class="section" id="market">
+    <div class="section-head"><div><h2 class="section-title">פרק ב: טועמים את תלפיות</h2><p>11:50 עד 14:00, אוכלים קטן</p></div></div>
+
+    <article class="stop" data-stop="marketbuilding">
+      <div class="stop-img"><img alt="שוק תלפיות בחיפה" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/1/17/110999_haifa_-_talpiot_market_PikiWiki_Israel.jpg"><span class="time">11:50</span></div>
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>לפני האוכל: למה השוק נראה ככה?</h3><p class="sub">מבנה שוק תלפיות, סירקין 35</p></div><div class="num">8</div></div>
+        <div class="history-hook"><b>הסיפור: השוק הזה נולד מתוך שינוי דרמטי במפת חיפה</b><p>אחרי אירועי 1929 וככל ששכונת הדר התרחבה, ועד הדר הכרמל ביקש להקים שוק מחוץ לעיר התחתית. ב-1938 נערכה תחרות אדריכלים ענקית עם 96 הצעות. הזוכים היו האדריכל משה גרשטל והמהנדס צ' כהן. ב-1940 נפתח מבנה מודרניסטי עם אולם מרכזי מואר בלבני זכוכית, גלריות וחזית צפונית מעוגלת.</p></div>
+        <figure class="history-photo"><img alt="שוק תלפיות בשנת 1947" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/e4/%D7%A9%D7%95%D7%A7_%22%D7%AA%D7%9C%D7%A4%D7%99%D7%95%D7%AA%22_%D7%91%D7%94%D7%93%D7%A8-%D7%94%D7%9B%D7%A8%D7%9E%D7%9C_%2C_%D7%97%D7%99%D7%A4%D7%94-JNF013627.jpeg"><figcaption>שוק תלפיות ב-1947, כשעוד היה אחד ממרכזי המסחר הגדולים של העיר. צילום מארכיון קק"ל, דרך Wikimedia Commons.</figcaption></figure>
+        <div class="task"><b>משימת הילדים: אז והיום</b><p>השוו את התמונה מ-1947 למה שאתם רואים. נסו למצוא שני אלמנטים אדריכליים ששרדו. בונוס: למה לדעתכם אדריכל של שוק מזון רצה להכניס כמה שיותר אור טבעי בלי לפתוח קירות שלמים לשמש?</p></div>
+        <details class="deep-story"><summary>למבוגרים: למה המבנה חשוב כל כך?</summary><p>עיריית חיפה והמועצה לשימור מציגות את שוק תלפיות כאחת מנקודות הציון המרכזיות של האדריכלות המודרניסטית בהדר. הוא היה השוק המרכזי של חיפה עד תחילת שנות ה-80, ולאחר שנים של הידרדרות פיזית הוא נמצא בתהליך שיקום שנועד להחזיר אליו מסחר, תרבות ואוכל תוך שמירה על המרכיבים המקוריים.</p></details>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=Talpiot%20Market%2C%20Sirkin%2035%2C%20Haifa">נווט</a><a class="btn secondary" target="_blank" rel="noopener" href="https://www.haifa.muni.il/place/talpiot-market/">מידע עירוני</a><button class="btn done-btn" onclick="toggleDone(this)">סיימנו את התחנה</button></div>
+      </div>
+    </article>
+
+    <article class="stop" data-stop="falafel">
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>טעימה 1: פלאפל ג'ורג'</h3><p class="sub">פתוח ברביעי 09:00 עד 17:00 לפי הרישום הנוכחי</p></div><div class="num">9</div></div>
+        <div class="taste"><b>מה מזמינים?</b><p>לא פיתה. מבקשים בערך 5 כדורי פלאפל, טחינה וחמוצים, כדור אחד לכל אחד. המטרה היא להתחיל, לא להתמלא.</p></div>
+        <div class="task"><b>שאלת הטעימה</b><p>כל אחד נותן ציון רק לפריכות מ-1 עד 5. בלי להתווכח על טעם עדיין.</p></div>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=Falafel%20George%2C%20Haifa">נווט</a><a class="btn secondary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Falafel%20George%20Haifa">במפות</a><button class="btn done-btn" onclick="toggleDone(this)">טעמנו</button></div>
+      </div>
+    </article>
+
+    <article class="stop" data-stop="marketchallenge">
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>טעימה 2: השוק עצמו</h3><p class="sub">באסטות, תבלינים ופרי עונתי</p></div><div class="num">10</div></div>
+        <p class="story"><strong>שכבה היסטורית:</strong> במשך עשרות שנים זה היה קודם כל מקום שבו חיפאים הגיעו לקנות חומרי גלם, לא "מתחם קולינרי". ההתחדשות של השנים האחרונות יצרה משהו מעניין: הבאסטות הוותיקות נשארו, וסביבן צמחו מטבחים חדשים שמשתמשים בשוק כמזווה. לכן סיורי האוכל הטובים כאן עוצרים גם אצל הסוחרים ולא רק במסעדות.</p>
+        <div class="taste"><b>מה עושים?</b><p>בוחרים פרי אחד שאתם לא קונים בדרך כלל, או עוצרים אצל התבלינים של שמעון ומריחים סומק, זעתר או שורש לא מוכר. אפשר לקנות שקית קטנה הביתה.</p></div>
+        <div class="task"><b>משימת הילדים</b><p>כל ילד בוחר ריח אחד ומנסה לתאר אותו בלי להגיד את שם התבלין. ההורים צריכים לנחש.</p></div>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Talpiot%20Market%20Haifa">פתח את אזור השוק</a><a class="btn secondary" target="_blank" rel="noopener" href="https://inmykitchen.co.il/talpiot-info/">השראת סיור האוכל</a><button class="btn done-btn" onclick="toggleDone(this)">טעמנו</button></div>
+      </div>
+    </article>
+
+    <article class="stop" data-stop="pita">
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>טעימה 3: פיתה תלפיות</h3><p class="sub">סירקין 27 ב, פתוח ברביעי 11:00 עד 18:00 לפי הרישום הנוכחי</p></div><div class="num">11</div></div>
+        <div class="history-hook"><b>לפני הביס, תסתכלו למעלה</b><p>בסירקין 27 נמצא בית קרמאן, שתוכנן ב-1937 בידי משה גרשטל, אותו אדריכל שזכה שנה אחר כך בתחרות לתכנון השוק. היזם היה חאג' טאהר קרמאן, איש עסקים ערבי וסגן ראש עיריית חיפה. העירייה מציגה את המבנה כדוגמה יוצאת דופן לשיתוף פעולה אדריכלי ערבי-יהודי בתקופת המנדט. חפשו את המרפסות המעוגלות וחלונות הפס.</p></div>
+        <div class="taste"><b>הזמנה חכמה למשפחה</b><p>במקום 5 פיתות, מזמינים 2 עד 3 "נשנושים" קטנים מסוגים שונים לחלוקה. אם אין באותו יום את הפורמט הקטן, פשוט לוקחים פיתה אחת או שתיים וחותכים.</p></div>
+        <div class="task"><b>משימת הטעימה</b><p>האם הביס הכי טוב עד עכשיו הוא פריך, חריף, חמוץ או עסיסי? כל אחד חייב לבחור מילה אחת בלבד.</p></div>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=%D7%A4%D7%99%D7%AA%D7%94%20%D7%AA%D7%9C%D7%A4%D7%99%D7%95%D7%AA%2C%20%D7%A1%D7%99%D7%A8%D7%A7%D7%99%D7%9F%2027%20%D7%91%2C%20%D7%97%D7%99%D7%A4%D7%94">נווט</a><a class="btn secondary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%99%D7%AA%D7%94%20%D7%AA%D7%9C%D7%A4%D7%99%D7%95%D7%AA%20%D7%97%D7%99%D7%A4%D7%94">במפות</a><button class="btn done-btn" onclick="toggleDone(this)">טעמנו</button></div>
+      </div>
+    </article>
+
+    <article class="stop" data-stop="asian">
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>טעימה 4: המשפחה בוחרת עולם</h3><p class="sub">אחרי 12:00, הודו או וייטנאם</p></div><div class="num">12</div></div>
+        <p class="story">כאן לא צריך לעשות גם וגם. בוחרים לפי מצב הרעב והסקרנות של הילדים.</p>
+        <div class="choice"><button id="indiaBtn" onclick="chooseAsian('india')">הודו, KESAR</button><button id="vietnamBtn" onclick="chooseAsian('vietnam')">וייטנאם, Bún chả</button></div>
+        <div class="taste" id="asianText"><b>מה מזמינים?</b><p>לחצו על אחת האפשרויות כדי לקבל הזמנה מומלצת.</p></div>
+        <div class="actions"><a id="asianNav" class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=KESAR%20Indian%20Restaurant%20Haifa">נווט לבחירה</a><button class="btn secondary" onclick="scrollToId('dessert')">למתוק</button><button class="btn done-btn" onclick="toggleDone(this)">טעמנו</button></div>
+      </div>
+    </article>
+
+    <article class="stop" id="dessert" data-stop="dessert">
+      <div class="stop-body">
+        <div class="stop-top"><div><h3>הסיום: כנאפה תלפיות</h3><p class="sub">סירקין 29-31, פתוח ברביעי מהצהריים לפי המקורות הנוכחיים</p></div><div class="num">13</div></div>
+        <div class="taste"><b>כמה להזמין?</b><p>2 מנות לחמישה, לא 5. אם יש גרסה קלאסית וגרסה נוספת שמסקרנת אתכם, קחו אחת מכל סוג וחלקו.</p></div>
+        <div class="task"><b>טקס סיום</b><p>כל אחד מכריז על "הביס של היום" שלו. אחר כך מצלמים תמונה משפחתית אחרונה לפני שחוזרים לרכב.</p></div>
+        <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=%D7%9B%D7%A0%D7%90%D7%A4%D7%94%20%D7%AA%D7%9C%D7%A4%D7%99%D7%95%D7%AA%2C%20%D7%A1%D7%99%D7%A8%D7%A7%D7%99%D7%9F%2029%2C%20%D7%97%D7%99%D7%A4%D7%94">נווט לכנאפה</a><a class="btn secondary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=%D7%97%D7%A0%D7%99%D7%95%D7%9F%20%D7%A9%D7%95%D7%A7%20%D7%AA%D7%9C%D7%A4%D7%99%D7%95%D7%AA%2C%20%D7%A1%D7%99%D7%A8%D7%A7%D7%99%D7%9F%2031%2C%20%D7%97%D7%99%D7%A4%D7%94">חזרה לרכב</a><button class="btn done-btn" onclick="toggleDone(this)">סיימנו את היום</button></div>
+      </div>
+    </article>
+  </section>
+
+  <section class="finale">
+    <h2>הביס של משפחת עוזיאל</h2>
+    <p>בחרו בסוף היום את התחנה שכל אחד היה חוזר אליה במיוחד.</p>
+    <div class="family-grid" id="familyGrid"></div>
+  </section>
+
+  <section class="sources">
+    <h2>מקורות ותוקף המידע</h2>
+    <ul>
+      <li><a href="https://ganbahai.org.il/he/visit-us-haifa/" target="_blank" rel="noopener">הגנים הבהאיים, שעות וכניסות רשמיות</a></li>
+      <li><a href="https://www.bahai.org/the-bab/shrine" target="_blank" rel="noopener">האתר הבהאי הרשמי, ההיסטוריה של מקדש הבאב</a></li>
+      <li><a href="https://www.haifa.muni.il/place/the-german-colony/" target="_blank" rel="noopener">עיריית חיפה, המושבה הגרמנית</a></li>
+      <li><a href="https://www.hcm.org.il/" target="_blank" rel="noopener">מוזיאון העיר חיפה</a></li>
+      <li><a href="https://digital.hcm.org.il/" target="_blank" rel="noopener">מדריך האודיו של מוזיאון העיר, פרופ' יוסי בן ארצי ויפעת אשכנזי</a></li>
+      <li><a href="https://www.hcm.org.il/%D7%90%D7%99%D7%A8%D7%95%D7%A2%D7%99%D7%9D_%D7%9E%D7%99%D7%95%D7%97%D7%93%D7%99%D7%9D/11801/" target="_blank" rel="noopener">מוזיאון העיר, הבהאים והטמפלרים בחיפה של המאה ה-19</a></li>
+      <li><a href="https://shimur.org/signs/%D7%91%D7%99%D7%AA-%D7%A9%D7%95%D7%9E%D7%90%D7%9B%D7%A8/" target="_blank" rel="noopener">המועצה לשימור, בית שומאכר</a></li>
+      <li><a href="https://www.haifa.muni.il/place/talpiot-market/" target="_blank" rel="noopener">עיריית חיפה, שוק תלפיות</a></li>
+      <li><a href="https://www.haifa.muni.il/article/five-on-talpiot/" target="_blank" rel="noopener">עיריית חיפה, ההיסטוריה האדריכלית של שוק תלפיות</a></li>
+      <li><a href="https://www.haifa.muni.il/place/%D7%91%D7%99%D7%AA-%D7%A7%D7%A8%D7%9E%D7%90%D7%9F-%D7%A8%D7%97-%D7%A1%D7%99%D7%A8%D7%A7%D7%99%D7%9F-27/" target="_blank" rel="noopener">עיריית חיפה, בית קרמאן בסירקין 27</a></li>
+      <li><a href="https://inmykitchen.co.il/talpiot-info/" target="_blank" rel="noopener">ארז ונטאלי גולקו, תחנות כרטיסיית הטעימות</a></li>
+      <li><a href="https://www.visit-haifa.org/business-type/%D7%AA%D7%9C%D7%A4%D7%99%D7%95%D7%AA/" target="_blank" rel="noopener">עמותת תיירות חיפה, עסקים בתלפיות</a></li>
+    </ul>
+    <p class="small">תמונות היסטוריות: Library of Congress, ארכיון קק"ל ומקורות נוספים דרך Wikimedia Commons; ציור בית אוליפנט מתוך אוסף המוזיאון הימי הלאומי המוצג במדריך הדיגיטלי של מוזיאון העיר. שעות עסקים פרטיים עשויות להשתנות ללא הודעה.</p>
+  </section>
+</div>
+
+<nav class="bottom-nav"><div class="bottom-inner"><a href="#top">למעלה</a><button class="main" onclick="openRoute()">לוח זמנים</button><button onclick="resetDay()">אפס יום</button></div></nav>
+
+<div class="modal" id="routeModal" onclick="if(event.target===this) closeRoute()"><div class="sheet"><button class="close" onclick="closeRoute()">X</button><h2>לוח הזמנים</h2><div class="route-item"><b>09:45</b><span>חניה וקפה במושבה הגרמנית</span></div><div class="route-item"><b>10:15</b><span>הגנים הבהאיים, רחבת המושבה</span></div><div class="route-item"><b>10:45</b><span>שלוש תחנות טמפלריות קצרות</span></div><div class="route-item"><b>11:30</b><span>חזרה לרכב ונסיעה לתלפיות</span></div><div class="route-item"><b>11:50</b><span>מבנה השוק והתחלת מסע הטעימות</span></div><div class="route-item"><b>12:05</b><span>פלאפל, באסטות ותבלינים</span></div><div class="route-item"><b>12:40</b><span>פיתה תלפיות ועוד טעימה אסייתית</span></div><div class="route-item"><b>13:35</b><span>כנאפה וסיכום משפחתי</span></div><div class="route-item"><b>14:00</b><span>יציאה לכיוון מודיעין</span></div><button class="btn primary" style="width:100%;margin-top:16px" onclick="closeRoute()">חזרה למסלול</button></div></div>
+
+<script>
+  const storageKey='haifaBirthdayDayV1';
+  const data=JSON.parse(localStorage.getItem(storageKey)||'{}');
+  data.done=data.done||{}; data.favorites=data.favorites||{}; data.asian=data.asian||'';
+  const cards=[...document.querySelectorAll('.stop[data-stop]')];
+  function save(){localStorage.setItem(storageKey,JSON.stringify(data));updateProgress();}
+  function updateProgress(){
+    let n=0; cards.forEach(c=>{const key=c.dataset.stop;const is=!!data.done[key];c.classList.toggle('done',is);const b=c.querySelector('.done-btn');if(b)b.textContent=is?'סומן כהושלם':'סיימנו את התחנה';if(is)n++;});
+    document.getElementById('progressText').textContent=n+' מתוך '+cards.length;
+    document.getElementById('progressBar').style.width=(n/cards.length*100)+'%';
+  }
+  function toggleDone(btn){const card=btn.closest('.stop');const key=card.dataset.stop;data.done[key]=!data.done[key];save();}
+  function scrollToId(id){document.getElementById(id).scrollIntoView({behavior:'smooth',block:'start'});}
+  function openRoute(){document.getElementById('routeModal').classList.add('open');document.body.style.overflow='hidden';}
+  function closeRoute(){document.getElementById('routeModal').classList.remove('open');document.body.style.overflow='';}
+  function resetDay(){if(confirm('לאפס את כל הסימונים והבחירות של היום?')){localStorage.removeItem(storageKey);location.reload();}}
+  function chooseAsian(type){
+    data.asian=type;
+    const text=document.getElementById('asianText'); const nav=document.getElementById('asianNav');
+    document.getElementById('indiaBtn').classList.toggle('selected',type==='india');
+    document.getElementById('vietnamBtn').classList.toggle('selected',type==='vietnam');
+    if(type==='india'){
+      text.innerHTML='<b>KESAR, סירקין 11</b><p>בחרו מנה אחת שקל לחלוק, עדיפות לדוסה, אפאם או מנה צמחונית קטנה אם זמינה. לרוני יש כאן בחירה אמיתית ולא רק תוספת בצד.</p>';
+      nav.href='https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=KESAR%20Indian%20Restaurant%2C%20Sirkin%2011%2C%20Haifa';
+    } else {
+      text.innerHTML='<b>Bún chả, לונץ 7</b><p>לכו על גלילי אורז לחלוקה, רצוי שילוב של ירקות או טופו ומנה נוספת שמסקרנת אתכם. המקום פתוח ברביעי מ-12:00 לפי הרישום הנוכחי.</p>';
+      nav.href='https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=Bun%20Cha%2C%20Lunz%207%2C%20Haifa';
+    }
+    save();
+  }
+  const favorites=['פלאפל ג\'ורג\'','הבאסטות והתבלינים','פיתה תלפיות','KESAR','Bún chả','כנאפה תלפיות'];
+  const family=['לירז','משה','רוני','עומר','שחר'];
+  const grid=document.getElementById('familyGrid');
+  family.forEach(name=>{
+    const wrap=document.createElement('div');wrap.className='family';
+    const label=document.createElement('label');label.textContent=name;
+    const select=document.createElement('select');
+    select.innerHTML='<option value="">בחרו ביס</option>'+favorites.map(x=>'<option>'+x+'</option>').join('');
+    select.value=data.favorites[name]||'';select.onchange=()=>{data.favorites[name]=select.value;save();};
+    wrap.append(label,select);grid.append(wrap);
+  });
+  if(data.asian) chooseAsian(data.asian); else updateProgress();
+  if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}
+</script>
+</body>
+</html>
